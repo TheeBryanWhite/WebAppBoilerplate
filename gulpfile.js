@@ -12,8 +12,8 @@ var browserSync = require('browser-sync');
  * Define paths
  */
 var paths = {
-    jsFiles: ['src/js/lib/**/*.js', 'src/js/local/**/*.js'],
-    jsDirectory: ['src/js/lib/', 'src/js/local/'],
+    jsFiles: ['./src/js/lib/**/*.js', './src/js/local/**/*.js'],
+    jsDirectory: 'dist/assets/js/',
     cssFiles: './src/css/*.css',
     cssDirectory: './src/css/',
     sassFiles: './src/less/*.scss',
